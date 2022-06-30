@@ -1,0 +1,15 @@
+.contacts{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+
+    border-bottom:1px solid lightgray ;
+    
+    
+}
+.contacts__right{
+    margin-left: 1rem;
+}
+.contacts:hover{
+    background-color:rgb(195, 195, 195) ;
+}

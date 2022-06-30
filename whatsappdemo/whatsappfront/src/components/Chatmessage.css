@@ -1,0 +1,26 @@
+.chatbox__message{
+    margin: 2rem;
+    padding: 13px;
+    text-align: center;
+    width: fit-content;
+     position: relative;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+}
+.chat__time{
+    font-size: 10px;
+    margin:0px 3px 0px 16px;
+    
+}
+.chat__name{
+    position: absolute;
+    top:-22px;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.chatbox__reviever{
+    background: rgb(178, 246, 255);
+    margin-left: auto;
+}

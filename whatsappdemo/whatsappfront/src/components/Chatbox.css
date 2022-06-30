@@ -1,0 +1,57 @@
+.chatbox{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+    background-color: #ece5dd3c;
+
+}
+.chatbox__head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom:1px solid lightgray ;
+}
+.chatbox__headContainer{
+    display: flex;
+    min-width: 15vw;
+    justify-content:space-betwen ;
+}
+.chatbox__body{
+    overflow-y: scroll;
+     padding-top: 20px;
+     flex: 1;
+     background-image: url(https://p4.wallpaperbetter.com/wallpaper/340/966/571/artistic-mountain-forest-landscape-wallpaper-preview.jpg);
+      background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+}
+.chatbox__footer{
+    border-top:1px solid lightgray ;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff	;
+    
+}
+.chatbox__footer> form {
+    border: none;
+    flex: 1;
+   display: flex;
+}
+.chatbox__footer> form> input{
+    border: none;
+    flex: 1;
+    padding: 14px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 30px;
+    outline: none;
+    
+}
+ 
+.chatbox__footer> form> button{
+    display: none;
+}
+ 
